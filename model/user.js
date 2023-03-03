@@ -14,4 +14,28 @@ usersDB.login = async (userName) => {
   if (userData) return userData;
   else return null;
 };
+
+usersDB.generateOrderId = async () => {
+  let userModel = await connection.getUserCollection();
+  let orderIds = await userModel.distinct("orders.orderId"); //important method
+  if (orderIds.length) {
+    let max_order_Id = Math.max(...orderIds);
+    return max_order_Id + 1;
+  } else {
+    return 1001;
+  }
+};
+
+usersDB.placeOrder = async (userName, orderData) => {
+  let newOrderId = await usersDB.generateOrderId();
+  orderData.orderId = newOrderId;
+  let userModel = await connection.getUserCollection();
+  let orderConfirmation = await userModel.updateOne(
+    { userName: userName },
+    { $push: { orders: orderData } }
+  );
+
+  if (orderConfirmation.modifiedCount > 0) return newOrderId;
+  else return null;
+};
 module.exports = usersDB;

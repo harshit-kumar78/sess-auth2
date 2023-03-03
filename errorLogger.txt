@@ -84,3 +84,210 @@ Fri Mar 03 2023 16:17:11 GMT+0530 (India Standard Time) - Error: Invalid Passwor
     at Object.userService.login (F:\practise\nodejs-demo\sess-auth2\service\user.js:22:5)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
     at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:19:20
+Fri Mar 03 2023 16:39:14 GMT+0530 (India Standard Time) - Error: Please Login to Continue
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:33:5)
+    at F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:40
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)
+Fri Mar 03 2023 16:41:01 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:22
+Fri Mar 03 2023 16:48:51 GMT+0530 (India Standard Time) - Error: Please Login to Continue
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:33:5)
+    at F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:40
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)
+Fri Mar 03 2023 16:51:12 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:22
+Fri Mar 03 2023 16:53:17 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:22
+Fri Mar 03 2023 16:53:22 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:22
+Fri Mar 03 2023 16:53:52 GMT+0530 (India Standard Time) - Error: Please Login to Continue
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:33:5)
+    at F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:40
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)
+Fri Mar 03 2023 16:56:47 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 16:58:07 GMT+0530 (India Standard Time) - Error: Please Login to Continue
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:33:5)
+    at F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:40
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)
+Fri Mar 03 2023 16:58:39 GMT+0530 (India Standard Time) - Error: Please Login to Continue
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:33:5)
+    at F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:40
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)
+Fri Mar 03 2023 17:00:48 GMT+0530 (India Standard Time) - Error: querySrv EREFUSED _mongodb._tcp.mean-project.fhzjij3.mongodb.net
+    at QueryReqWrap.onresolve [as oncomplete] (node:internal/dns/promises:173:17)
+Fri Mar 03 2023 17:01:24 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 17:01:28 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 17:01:29 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 17:01:31 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 17:01:33 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 17:01:34 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 17:01:35 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 17:01:35 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 17:01:37 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 17:02:03 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 17:02:37 GMT+0530 (India Standard Time) - Error: Please Login to Continue
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:33:5)
+    at F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:40
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)
+Fri Mar 03 2023 17:04:34 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:32:22
+Fri Mar 03 2023 17:08:32 GMT+0530 (India Standard Time) - Error: Please Login to Continue
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:33:5)
+    at F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:40
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)
+Fri Mar 03 2023 17:08:50 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:31:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:22
+Fri Mar 03 2023 17:09:18 GMT+0530 (India Standard Time) - Error: Please Login to Continue
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:34:5)
+    at F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:40
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)
+Fri Mar 03 2023 17:09:26 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:32:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:22
+Fri Mar 03 2023 17:10:42 GMT+0530 (India Standard Time) - Error: Please Login to Continue
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:34:5)
+    at F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:40
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)
+Fri Mar 03 2023 17:10:51 GMT+0530 (India Standard Time) - Error: Order could not be completed! Please try again
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:32:10)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:22
+Fri Mar 03 2023 17:11:30 GMT+0530 (India Standard Time) - Error: Please Login to Continue
+    at throwError (F:\practise\nodejs-demo\sess-auth2\service\user.js:4:13)
+    at Object.userService.placeOrder (F:\practise\nodejs-demo\sess-auth2\service\user.js:34:5)
+    at F:\practise\nodejs-demo\sess-auth2\routes\routing.js:31:40
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)

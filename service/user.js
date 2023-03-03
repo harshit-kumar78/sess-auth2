@@ -24,5 +24,14 @@ userService.login = async (userObj) => {
     return userData;
   }
 };
+userService.placeOrder = async (currentUser, orderData) => {
+  if (currentUser) {
+    let newOrderId = await usersDB.placeOrder(currentUser.userName, orderData);
 
+    if (newOrderId) return newOrderId;
+    else throwError("Order could not be completed! Please try again", 500);
+  } else {
+    throwError("Please Login to Continue", 403);
+  }
+};
 module.exports = userService;

@@ -9,8 +9,14 @@ const errorLogger = require("./utilities/errorLogger");
 const app = express();
 
 //=============================== MIDDLEWARE ================================
+const SESS_EXPIRY = 1000 * 60 * 60 * 2;
 app.use(
-  session({ secret: "user session", resave: false, saveUninitialized: false })
+  session({
+    secret: "user session",
+    resave: false,
+    saveUninitialized: false,
+    cookie: { maxAge: SESS_EXPIRY },
+  })
 );
 app.use(bodyParser.json());
 // ===================== REQUESTLOGGER ===================================

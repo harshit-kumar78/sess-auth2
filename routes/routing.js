@@ -23,4 +23,18 @@ router.post("/login", async (req, res, next) => {
     next(err);
   }
 });
+
+router.put("/place-order", async (req, res, next) => {
+  try {
+    let currentUser = req.session.currentUser;
+    let orderData = req.body;
+    let newOrderId = await userService.placeOrder(currentUser, orderData);
+    if (newOrderId)
+      res.json({
+        message: `Order placed Successfully. Order Id: ${newOrderId}`,
+      });
+  } catch (err) {
+    next(err);
+  }
+});
 module.exports = router;
