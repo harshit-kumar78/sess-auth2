@@ -15,6 +15,7 @@ router.post("/register", async (req, res, next) => {
 router.post("/login", async (req, res, next) => {
   try {
     let userObj = req.body;
+
     let userData = await userService.login(userObj);
     req.session.currentUser = userData;
     res.json({ message: `${userData.userName} logged in successfully` });
