@@ -1,0 +1,32 @@
+{
+  "name": "sess-auth2",
+  "version": "1.0.0",
+  "description": "session-authentication-lex",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshit-kumar78/sess-auth2.git"
+  },
+  "keywords": [
+    "session-authentication"
+  ],
+  "author": "Harshit Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshit-kumar78/sess-auth2/issues"
+  },
+  "homepage": "https://github.com/harshit-kumar78/sess-auth2#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}

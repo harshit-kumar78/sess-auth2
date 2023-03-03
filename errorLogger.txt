@@ -1,0 +1,22 @@
+Fri Mar 03 2023 13:28:50 GMT+0530 (India Standard Time) - ReferenceError: logMessage is not defined
+    at requestLogger (F:\practise\nodejs-demo\sess-auth2\utilities\requestLogger.js:4:40)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:328:13)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (F:\practise\nodejs-demo\sess-auth2\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:328:13)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:286:9
+Fri Mar 03 2023 13:31:22 GMT+0530 (India Standard Time) - ReferenceError: logMessage is not defined
+    at requestLogger (F:\practise\nodejs-demo\sess-auth2\utilities\requestLogger.js:4:40)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:328:13)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (F:\practise\nodejs-demo\sess-auth2\node_modules\body-parser\lib\types\json.js:113:7)
+    at Layer.handle [as handle_request] (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:328:13)
+    at F:\practise\nodejs-demo\sess-auth2\node_modules\express\lib\router\index.js:286:9
