@@ -38,4 +38,14 @@ usersDB.placeOrder = async (userName, orderData) => {
   if (orderConfirmation.modifiedCount > 0) return newOrderId;
   else return null;
 };
+
+usersDB.getOrders = async (userName) => {
+  let usersModel = await connection.getUserCollection();
+  let ordersObj = await usersModel.findOne(
+    { userName: userName },
+    { orders: 1, _id: 0 }
+  );
+  if (ordersObj) return ordersObj;
+  else return null;
+};
 module.exports = usersDB;

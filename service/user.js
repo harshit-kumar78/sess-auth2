@@ -34,4 +34,18 @@ userService.placeOrder = async (currentUser, orderData) => {
     throwError("Please Login to Continue", 403);
   }
 };
+
+userService.getOrders = async (currentUser) => {
+  if (currentUser) {
+    const ordersObj = await usersDB.getOrders(currentUser.userName);
+    if (ordersObj.orders.length) return ordersObj.orders;
+    else
+      throwError(
+        "Seems You havent shopped with us yet... Get started now",
+        404
+      );
+  } else {
+    throwError("Please Login to Continue", 403);
+  }
+};
 module.exports = userService;

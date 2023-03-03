@@ -21,8 +21,7 @@ const userSchema = new mongoose.Schema({
         },
       },
     ],
-
-    required: [true, "enter order details"],
+    default: [],
   },
 });
 
