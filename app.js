@@ -16,10 +16,7 @@ app.use(bodyParser.json());
 // ===================== REQUESTLOGGER ===================================
 app.use(requestLogger);
 // ============================= ROUTES ==================================
-app.use((req, res, next) => {
-  console.log("after request logger middleware");
-  next();
-});
+
 app.use("/", router);
 
 // ==================== ERRORLOGGER ======================================
