@@ -85,3 +85,14 @@ Sat Mar 04 2023 00:27:05 GMT+0530 (India Standard Time) - POST - /login
 Sat Mar 04 2023 00:27:30 GMT+0530 (India Standard Time) - GET - /orders
 Sat Mar 04 2023 00:28:01 GMT+0530 (India Standard Time) - POST - /login
 Sat Mar 04 2023 00:28:07 GMT+0530 (India Standard Time) - GET - /orders
+Sat Mar 04 2023 10:36:40 GMT+0530 (India Standard Time) - GET - /register
+Sat Mar 04 2023 16:22:46 GMT+0530 (India Standard Time) - POST - /login
+Sat Mar 04 2023 16:23:16 GMT+0530 (India Standard Time) - POST - /login
+Sat Mar 04 2023 16:24:58 GMT+0530 (India Standard Time) - POST - /login
+Sat Mar 04 2023 16:25:33 GMT+0530 (India Standard Time) - POST - /login
+Sat Mar 04 2023 16:26:19 GMT+0530 (India Standard Time) - POST - /login
+Sat Mar 04 2023 16:29:47 GMT+0530 (India Standard Time) - DELETE - /delete
+Sat Mar 04 2023 16:30:07 GMT+0530 (India Standard Time) - POST - /login
+Sat Mar 04 2023 16:30:15 GMT+0530 (India Standard Time) - DELETE - /delete
+Sat Mar 04 2023 16:30:48 GMT+0530 (India Standard Time) - DELETE - /logout
+Sat Mar 04 2023 16:31:12 GMT+0530 (India Standard Time) - DELETE - /logout

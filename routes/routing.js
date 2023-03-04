@@ -48,5 +48,14 @@ router.get("/orders", async (req, res, next) => {
     next(err);
   }
 });
-
+router.delete("/logout", (req, res, next) => {
+  try {
+    req.session.destroy(() => {
+      res.clearCookie("connect.sid");
+      res.json({ message: "user logged out successfully" });
+    });
+  } catch (err) {
+    next(err);
+  }
+});
 module.exports = router;
